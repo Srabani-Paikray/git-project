@@ -1,0 +1,15 @@
+1) git config --global user.name "Srabani"
+   git config --global user.email "srabani_paikray@persistent.com"
+2).gitignore file was created and *IgnoreFile.txt was added and saved.
+3)git commit -am "This is First Commit,tracking File1 and FileToDelete"
+4)First some modification was made in the File1- git commit -am "WI3:Change2 in File1"
+  git commit -am "WI3:Change2 in File1"
+5)git rm FileToDelete.txt
+  git commit -m "FileToDelete is deleted"
+6)git log
+  git log -3 --oneline
+  git log --after="2021-02-02" --before="2021-02-05" --oneline
+  git log --grep="File1"
+7)git reset --hard HEAD~1
+8)git commit -am "File1 name changed to TestFile"
+9)git reset --mixed HEAD~1
