@@ -1,10 +1,8 @@
 change 1:file 1
 change 2:file 2
 change 3:file 3
-<<<<<<< HEAD
 change 4:file 4-changes made to check conflict
 change 6:file 6
-=======
 change 4:file 4
 change 5:file 5
->>>>>>> e76e814 (file updated to test rebase)
+
